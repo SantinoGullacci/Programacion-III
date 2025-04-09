@@ -1,0 +1,6 @@
+-Consulta general del estilo y de los requisitos del TP
+-Acomodar seccion Apartamentos (Santo)
+-Acomodar seccion Hoteles (Josu)
+
+-Mas informacion en los distintos alojamientos
+-4. Contacto

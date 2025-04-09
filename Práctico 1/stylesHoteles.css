@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.encabezado {
+    display: flex;
+    align-items: center; 
+    gap: 40%; 
+    padding: 10px;
+}
+
+
+.logo {
+    width: 60px;
+    height: auto;
+    justify-content: left;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.logo:hover{
+    scale:1.05;
+    transition: all 0.3s ease-in-out;
+}
+
+.titulo {
+    font-size: 28px;
+    color: black;
+    margin: 0;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+header{
+    background-color: beige;
+}
+
+body{
+    background: whitesmoke;
+    margin: 0px;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+}
+
+.alojamientos{
+
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.alojamientos:hover{
+    scale:1.05;
+    background-color: lightblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.alojamientos p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content:center;
+}
+
+img{
+    margin: 10px;
+    width: 200px;
+}
+
+
+.hoteles{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.hoteles:hover{
+    scale:1.05;
+    background-color: lightblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.hoteles p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content:center;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+}
