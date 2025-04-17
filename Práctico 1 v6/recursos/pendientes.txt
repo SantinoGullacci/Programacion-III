@@ -1,0 +1,15 @@
+-Terminar de crear ramas de git
+
+-Consultar si está bien el estilo
+-Chequear que todo el codigo este ok
+
+Estructura principal:
+-Cada archivo contará con header, main y footer
+-Uso de mínimo dos iconos. (por ejemplo github y linkedin)
+
+Contacto:
+-Selector desplegable
+-Checkbox o radio button
+-Labels para cada campo
+
+-Mas informacion en los distintos alojamientos
