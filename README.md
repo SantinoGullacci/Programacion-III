@@ -1,2 +1,2 @@
 # Programacion-III
-Intregrantes: Josue Chazarreta, Emiliano Zack y Santino Gullacci
+Intregrantes: Josue Chazarreta, Emiliano Zack, Santino Gullacci y Rodrigo Sisko
