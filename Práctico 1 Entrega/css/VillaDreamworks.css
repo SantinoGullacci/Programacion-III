@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #15297c;
+}
+
+
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    flex: 1;
+}
+
+
+h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 25px;
+}
+
+.navbar{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    font-size: 150%;
+    gap: 40px;
+
+}
+
+.navbaritems{
+    color: lightblue;
+
+}
+.navbaritems:hover{
+    transition: 1s;
+    color: beige;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    justify-content: left;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.logo:hover{
+    scale:1.05;
+    transition: all 0.3s ease-in-out;
+}
+
+
+header{
+    background-color: #15297c;
+}
+
+body{
+    background: whitesmoke;
+    margin: 0px;
+    
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+}
+
+.apartamentos{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.apartamentos:hover{
+    scale:1.05;
+    background-color: beige;
+    transition: all 0.3s ease-in-out;
+}
+
+.apartamentos p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    margin: 10px;
+    width: 200px;
+}
+
+.botonhome{
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.infofooter{
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buscartipo{
+    display: flex;
+    margin-left: 3%;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 3%;
+    font-size: larger;
+}
+
+
+.grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 40px;
+    
+}
+
+.grid img{
+    height: 100%;
+}
+
+.ubicacion{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+        display: flex;
+        color: black;
+        font-size: 25px;
+}
+
+.Villa_Dreamworks{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:1px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.Villa_Dreamworks:hover{
+    scale:1.05;
+    background-color: beige;
+    transition: all 0.3s ease-in-out;
+}
+
+.precio{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 25px;
+}
+
+.descripcion{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.acercade{
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.infofooter{
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/stylesContacto.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="encabezado">
+      <a href="index.html">
+        <img class="logo" src="./img/logoweb.jpg" alt="logo de la web">
+      </a>
+      <h1 class="titulo">Bienvenido a la sección de Contacto</h1>
+    </div>
+    <div class="navbar">
+      <a href="apartamentos.html">
+        <p class="navbaritems">Apartamentos</p>
+      </a>
+      <a href="hoteles.html">
+        <p class="navbaritems">Hoteles</p>
+      </a>
+      <a href="resorts.html">
+        <p class="navbaritems">Resorts</p>
+      </a>
+      <a href="villas.html">
+        <p class="navbaritems">Villas</p>
+      </a>
+      <a href="contacto.html">
+        <p class="navbaritems">Contacto</p>
+      </a>
+    </div>
+    <hr>
+  </header>
+
+  <p class="subtitulo"> Complete el siguiente formulario...</p>
+
+
+  <div>
+    <section class="contacto">
+      <ul>
+        <li style="list-style-type: none">Nombre</li>
+        <input type="text" name="search" id="search" placeholder="Ingrese su nombre...">
+        <li style="list-style-type: none">Email</li>
+        <input type="text" name="search" id="search" placeholder="Ingrese su email...">
+        <li style="list-style-type: none">Teléfono</li>
+        <input type="text" name="search" id="search" placeholder="Ingrese su telefono...">
+        <li style="list-style-type: none">Comentarios</li>
+        <input class="comentarios" type="text" name="search" id="search" placeholder="Ingrese su comentario...">
+        <p>Seleccione su nivel de satisfaccion con respecto al servicio ofrecido</p>
+        <select name="satisfaccion" id="satisfaccion">
+          <optgroup label="Seleccione su nivel de satisfaccion">
+            <option value="insatisfecho">Insatisfecho</option>
+            <option value="satisfecho">Satisfecho</option>
+            <option value="muysatisfecho">Muy satisfecho</option>
+          </optgroup>
+        </select>
+        <p>¿Ha sido alguna vez cliente de alguno de nuestros servicios?</p>
+        <div class="checkbox">
+          <label><input type="radio" name="clienteregular" value="si"> Si</label>
+          <label><input type="radio" name="clienteregular" value="no"> No</label>
+        </div>
+        <div class="botonescontainer">
+          <button class="botones" type="submit">Enviar</button>
+          <button class="botones" type="submit">Reset</button>
+        </div>
+      </ul>
+    </section>
+  </div>
+  <div class="iconos">
+    <a href="https://www.linkedin.com/school/universidad-tecnologica-nacional/posts/?feedView=all" target="_blank">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://github.com/SantinoGullacci/Programacion-III" target="_blank">
+      <i class="bi bi-github"></i>
+    </a>
+  </div>
+  
+
+
+  <br><br>
+  <a class="botonhome" href="index.html">Volver al Home</a>
+
+</body>
+<footer>
+  <p class="acercade">Acerca de</p>
+  <p class="infofooter">Somos una empresa que brinda las mejores opciones y precios para tu alojamiento.</p>
+  <p class="infofooter">© 2025 nuestro sitio web. Todos los derechos reservados.</p>
+</footer>
+
+</html>
