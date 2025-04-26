@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #15297c;
+}
+
+
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    flex: 1;
+}
+
+.subtitulo{
+    display: flex;
+    margin-left: 3%;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 3%;
+    font-size: larger;
+}
+
+.navbar{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    font-size: 150%;
+    gap: 40px;
+
+}
+
+.navbaritems{
+    color: lightblue;
+
+}
+.navbaritems:hover{
+    transition: 1s;
+    color: beige;
+}
+
+.contacto{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 150%;
+    flex-wrap: wrap;
+    gap:40px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.comentarios{
+    height: 250px;
+}
+
+select{
+    width: 30%; 
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.botones{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    
+}
+
+.botones:hover{
+    background: beige;
+}
+
+.botonescontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    justify-content: left;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.logo:hover{
+    scale:1.05;
+    transition: all 0.3s ease-in-out;
+}
+
+
+header{
+    background-color: #15297c;
+}
+
+body{
+    background: whitesmoke;
+    margin: 0px;
+    
+}
+
+
+img{
+    margin: 10px;
+    width: 200px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    color: blue;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.botonhome{
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.acercade{
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.infofooter{
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
