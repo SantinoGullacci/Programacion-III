@@ -10,6 +10,16 @@ class TurnosModel {
   getTurnosByPaciente(idPaciente) {
     return this.data.filter(turno => turno.idPaciente == idPaciente);
   }
+
+  deleteTurno(idTurno) {
+    const index = this.data.findIndex(turno => turno.id == idTurno);
+    if (index !== -1) {
+      this.data.splice(index, 1);
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 module.exports = new TurnosModel();

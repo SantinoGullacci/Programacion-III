@@ -9,4 +9,6 @@ router.get("/", (req, res) => { //para testear que el sistema GET de turnos func
   
 router.get("/:idPaciente", turnosController.getByPaciente);
 
+router.delete("/:idTurno", turnosController.deleteTurno);
+
 module.exports = router;
