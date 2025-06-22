@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuevo Turno</title>
+    <style>
+    body{
+      background-color: lightblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Registrar nuevo turno</h1>
+  <form action="/turnos/nuevo" method="POST">
+    <input type="number" name="idPaciente" placeholder="ID Paciente" required><br>
+    <input type="date" name="fecha" required><br>
+    <input type="time" name="hora" required><br>
+    <input type="text" name="motivo" placeholder="Motivo" required><br>
+    <button type="submit">Registrar</button>
+  </form>
+  <a href="/turnos">Volver</a>
+</body>
+</html>
