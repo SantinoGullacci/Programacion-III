@@ -1,0 +1,71 @@
+.producto-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.producto-item.sin-stock {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.producto-nombre {
+  font-weight: bold;
+  display: block;
+}
+
+.producto-categoria {
+  color: #666;
+  display: block;
+}
+
+.producto-stock {
+  display: block;
+}
+.form-producto {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-producto h2 {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #333;
+}
+
+.form-producto label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-producto input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.form-producto button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-producto button:hover {
+  background: #2980b9;
+}

@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.barrabuscador{
+  margin-left: 5%;
+}
+.form-producto {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-producto h2 {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #333;
+}
+
+.form-producto label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-producto input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.form-producto button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-producto button:hover {
+  background: #2980b9;
+}
+
+.producto-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.producto-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto-nombre {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.producto-categoria {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.producto-descripcion {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.producto-stock {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #27ae60;
+}
+
+.sin-stock .producto-stock {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.producto-precio {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.producto-item button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.producto-item button:hover {
+  background-color: #c0392b;
+}
+
+.form-editar-producto{
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding:14px;
+  border-radius: 10xp;
+  margin-top:16px;
+  max-width: 400px;
+}
+
+.form-editar-producto input{
+  width:100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size:14px;
+}
+.form-editar-producto input:focus{
+  outline:none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52,152,219,0.5);
+}
+.form-editar-producto button{
+  margin-right: 8px;
+}
