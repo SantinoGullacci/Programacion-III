@@ -1,7 +1,7 @@
-# PROYECTO FINAL
+# PROYECTO FINAL 🏪 2. Sistema de Inventario Básico
 
 
-### Para iniciacilar el proyecto:
+### Para inicializar el proyecto:
 ```bash
 docker-compose build
 
