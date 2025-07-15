@@ -29,6 +29,7 @@ https://localhost:3000/api/productos/:id
 ---
 ### Funcionalidades:
 -Gestión de productos (CRUD)
+
 Create:
 
 Al pie de la página, utilizar esta sección para agregar productos
